@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: contoso-air-config
-  namespace: dev
+  name: prasanti-test-config
+  namespace: test
   labels:
-    app.kubernetes.io/name: contoso-air
+    app.kubernetes.io/name: prasanti-test
     kubernetes.azure.com/generator: devhub
 data:
