@@ -43,6 +43,7 @@ env:
   CONTAINER_NAME: contoso-air
   CLUSTER_NAME: myakscluster
   CLUSTER_RESOURCE_GROUP: myresourcegroup8505
+
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
   DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: ./src/web/Dockerfile
