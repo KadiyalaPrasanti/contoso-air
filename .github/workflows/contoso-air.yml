@@ -38,11 +38,12 @@ on:
   workflow_dispatch:
 
 env:
-  ACR_RESOURCE_GROUP: myresourcegroup10706
-  AZURE_CONTAINER_REGISTRY: myregistrygl33
+  ACR_RESOURCE_GROUP: myresourcegroup8505
+  AZURE_CONTAINER_REGISTRY: myregistrydvif
   CONTAINER_NAME: contoso-air
   CLUSTER_NAME: myakscluster
-  CLUSTER_RESOURCE_GROUP: myresourcegroup10706
+  CLUSTER_RESOURCE_GROUP: myresourcegroup8505
+
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
   DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: ./src/web/Dockerfile
